@@ -31,7 +31,7 @@ Submissions are evaluated on **Root-Mean-Squared-Error (RMSE)** between the loga
 ## [Baseline](/house_prices_preprosesing.ipynb)
 As basemodel was using [SGDRegressor](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.SGDRegressor.html) (Stochastic Gradient Descent).  
 There was no goal to achieve highest score, so model is quite simple and score - 0.15563.
-## [Model](/house_price_model.ipynb)
+## [Model](/house_prices_model.ipynb)
 As main model was using [LightGBMRegressor](https://lightgbm.readthedocs.io/en/latest). Than i took feature_importances from training LightGBM and used this features for training [CatBoostRegressor](https://catboost.ai/docs/concepts/python-reference_catboostregressor.html).
 I used GridSearchCV for selection of parameters.
 # My Score
