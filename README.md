@@ -35,4 +35,4 @@ There was no goal to achieve highest score, so model is quite simple and score -
 As main model was using [LightGBMRegressor](https://lightgbm.readthedocs.io/en/latest). Than i took feature_importances from learning LightGBM and used this features for learning [CatBoostRegressor](https://catboost.ai/docs/concepts/python-reference_catboostregressor.html).
 I used GridSearchCV for selection of parameters.
 # My Score
-### **Place 661/4730 Score 0.12431 (TOP 14%)**
+Place **661/4730** Score 0.12431 [(TOP 14%)](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/leaderboard#score)
